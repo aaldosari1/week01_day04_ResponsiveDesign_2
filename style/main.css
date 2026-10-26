@@ -118,31 +118,56 @@ main h3{
 }
 
 
-                  /*  Start here  */
-/* --------- START THE CODE HERE ------- */
+ /* --------- START THE CODE HERE ------- */
+
+/* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  main {   /*  friend helped me with this one  */
-    display: grid;
-    width:max-content;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    
+  header ul {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  header ul li {
+    float: none;
+    height: 35px;
+    text-align: center;
+  }
+
+  .introduction {
+    padding: 0 14%;
+  }
+
+  .introduction h1 {
+    font-size: 25px;
   }
 }
-  /*Small devices (phones, 576px and up)*/ 
 
+/*Small devices (phones, 576px and up)*/
 @media screen and (max-width: 576px) {
-  header ul{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    
+  header ul {
+    width: 100%;
+  }
+
+  #logo {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  header ul li {
+    float: none;
+    height: 35px;
+    text-align: center;
+  }
+
+  .introduction {
+    padding: 0 10%;
+  }
+
+  .introduction h1 {
+    font-size: 25px;
   }
 }
-
-
-
-
- /* Medium devices (tablets, 768px and up) */
