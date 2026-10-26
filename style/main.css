@@ -122,12 +122,12 @@ main h3{
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-  header ul {
+  header ul,
+  #logo {
     width: 100%;
   }
 
   #logo {
-    width: 100%;
     box-sizing: border-box;
   }
 
@@ -144,30 +144,23 @@ main h3{
   .introduction h1 {
     font-size: 25px;
   }
+
+  main {
+    display: grid;
+    justify-items: center;
+  }
+
+  main .part-services {
+    width: 92%;
+  }
 }
 
-/*Small devices (phones, 576px and up)*/
 @media screen and (max-width: 576px) {
-  header ul {
-    width: 100%;
-  }
-
-  #logo {
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  header ul li {
-    float: none;
-    height: 35px;
-    text-align: center;
-  }
-
   .introduction {
     padding: 0 10%;
   }
 
-  .introduction h1 {
-    font-size: 25px;
+  main .part-services {
+    width: 95%;
   }
 }
